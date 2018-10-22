@@ -18,6 +18,7 @@ class ViewController: UIViewController {
   @IBOutlet weak var display: UILabel!
   var tempDisplay = ""
   var resultShowed = false
+  var history: [String] = []
   
   @IBAction func pressNum(_ sender: UIButton) {
     if resultShowed {
@@ -85,6 +86,7 @@ class ViewController: UIViewController {
     default:
       return
     }
+    history.append(tempDisplay + " = " + String(result))
     resultShowed = true
     tempDisplay = ""
     display.text = String(result)
@@ -99,5 +101,10 @@ class ViewController: UIViewController {
       a *= Double(i)
     }
     return a
+  }
+  
+  override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    let historyVC = segue.destination as! HistoryViewController
+    historyVC.history = history
   }
 }

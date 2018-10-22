@@ -14,6 +14,7 @@
 		1005AAAC2177DE7F0069F47B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1005AAAA2177DE7F0069F47B /* LaunchScreen.storyboard */; };
 		1005AAB72177DE7F0069F47B /* simple_calcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1005AAB62177DE7F0069F47B /* simple_calcTests.swift */; };
 		1005AAC22177DE7F0069F47B /* simple_calcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1005AAC12177DE7F0069F47B /* simple_calcUITests.swift */; };
+		109492A4217E881100FF5F4D /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109492A3217E881100FF5F4D /* HistoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		1005AABD2177DE7F0069F47B /* simple-calcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "simple-calcUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1005AAC12177DE7F0069F47B /* simple_calcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simple_calcUITests.swift; sourceTree = "<group>"; };
 		1005AAC32177DE7F0069F47B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		109492A3217E881100FF5F4D /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				1005AAA12177DE7D0069F47B /* AppDelegate.swift */,
 				1005AAA32177DE7D0069F47B /* ViewController.swift */,
 				1005AAA52177DE7D0069F47B /* Main.storyboard */,
+				109492A3217E881100FF5F4D /* HistoryViewController.swift */,
 				1005AAA82177DE7F0069F47B /* Assets.xcassets */,
 				1005AAAA2177DE7F0069F47B /* LaunchScreen.storyboard */,
 				1005AAAD2177DE7F0069F47B /* Info.plist */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				109492A4217E881100FF5F4D /* HistoryViewController.swift in Sources */,
 				1005AAA42177DE7D0069F47B /* ViewController.swift in Sources */,
 				1005AAA22177DE7D0069F47B /* AppDelegate.swift in Sources */,
 			);
